@@ -1,0 +1,33 @@
+Sauce Cypress Runner 8.8.0
+Preparing npm environment
+
+Couldn't find tsconfig.json. tsconfig-paths will be skipped
+Your configFile threw an error from: D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress.config.js
+
+The error was thrown while executing your e2e.setupNodeEvents() function:
+
+Error: Cannot find module 'cypress-grep/src/plugin'
+Require stack:
+- D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress.config.js
+- D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\lib\plugins\child\run_require_async_child.js
+- D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\lib\plugins\child\require_async_child.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at setupNodeEvents (D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress.config.js:12:7)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\lib\plugins\child\run_plugins.js:118:14
+    at tryCatcher (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Function.Promise.attempt.Promise.try (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\bluebird\js\release\method.js:39:29)
+    at RunPlugins.load (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\lib\plugins\child\run_plugins.js:115:9)
+    at RunPlugins.runSetupNodeEvents (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\lib\plugins\child\run_plugins.js:254:10)
+    at EventEmitter.<anonymous> (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\lib\plugins\child\run_require_async_child.js:185:22)
+    at EventEmitter.emit (events.js:400:28)
+    at EventEmitter.emit (domain.js:475:12)
+    at process.<anonymous> (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\lib\plugins\util.js:33:22)
+    at process.emit (events.js:400:28)
+    at process.emit (domain.js:475:12)
+    at process.emit.sharedData.processEmitHook.installedValue [as emit] (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@cspotcode\source-map-support\source-map-support.js:613:40)
+    at emit (internal/child_process.js:935:14)
+    at processTicksAndRejections (internal/process/task_queues.js:83:21)

@@ -1,0 +1,773 @@
+Sauce Cypress Runner 8.8.0
+Preparing npm environment
+
+Couldn't find tsconfig.json. tsconfig-paths will be skipped
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        10.7.0                                                                         │
+  │ Browser:        Custom Chrome 105                                                              │
+  │ Node Version:   v14.20.0 (D:\sauce-cypress-runner\8.8.0\bundle\node.exe)                       │
+  │ Specs:          18 found (cypress.config.js, package-lock.json, package.json, sauce-runner.jso │
+  │                 n, saucectl.exe, example.json, profile.json, users.json, commands.js, e2e.js,  │
+  │                 login.cy.js, basic-test.cy.js, checkbox-validation.cy.js, cypress-basic-comman │
+  │                 ds.cy.js, cypress-varia...)                                                    │
+  │ Searched:       **/*.*                                                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  cypress.config.js                                                              (1 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     cypress.config.js                                                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  package-lock.json                                                              (2 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     package-lock.json                                                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  package.json                                                                   (3 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     package.json                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  sauce-runner.json                                                              (4 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     sauce-runner.json                                                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  saucectl.exe                                                                   (5 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     saucectl.exe                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  example.json                                                                   (6 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     example.json                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  profile.json                                                                   (7 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     profile.json                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  users.json                                                                     (8 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     users.json                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  commands.js                                                                    (9 of 18)
+
+Your configFile threw an error from: cypress.config.js
+
+We stopped running your tests because your config file crashed.
+
+TypeError: Cannot read property 'deferreds' of undefined
+    at rejectWithErr (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:163:48)
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:188:24)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     commands.js                                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  e2e.js                                                                        (10 of 18)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\support\e2e.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/support/e2e.js
+Module not found: Error: Can't resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+resolve 'cypress-grep' in 'D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support'
+  Parsed request is a module
+  using description file: D:\sauce-cypress-runner\8.8.0\bundle\__project__\package.json (relative path: ./cypress/support)
+    Field 'browser' doesn't contain a valid alias configuration
+    Looked for and couldn't find the file at the following paths:
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\support\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\cypress\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\__project__\node_modules]
+[D:\sauce-cypress-runner\8.8.0\node_modules]
+[D:\sauce-cypress-runner\node_modules]
+[D:\node_modules]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.js]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.json]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.jsx]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.mjs]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.coffee]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.ts]
+[D:\sauce-cypress-runner\8.8.0\bundle\node_modules\cypress-grep.tsx]
+ @ ./cypress/support/e2e.js 43:0-23
+ 
+    at handle (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\@cypress\webpack-preprocessor\dist\index.js:180:23)
+    at finalCallback (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:257:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:304:22
+    at Compiler.emitRecords (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:499:39)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:298:10
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:482:27
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:2818:7
+    at done (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\neo-async\async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\tapable\lib\Hook.js:154:20)
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\webpack\lib\Compiler.js:464:33
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at D:\sauce-cypress-runner\8.8.0\bundle\Cache\10.7.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (fs.js:180:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     e2e.js                                                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  login.cy.js                                                                   (11 of 18)
